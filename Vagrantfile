@@ -2,7 +2,7 @@
 # vi: set ft=ruby :
 
 Vagrant.configure("2") do |config|
-  config.vm.hostname = "railsapp.example.com"
+  config.vm.hostname = "starter.example.com"
   config.hostmanager.enabled = true
   config.hostmanager.manage_host = true
   config.hostmanager.ignore_private_ip = false
